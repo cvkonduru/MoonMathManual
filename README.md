@@ -75,6 +75,27 @@ an invertible function that is easy to compute in one direction, but hard to com
 direction.
 
 
+Euclidean Division :
+
+Euclidean division referes to the process of dividing two integers to obtain a quotient and a remainder.
+It is based on the principle that for any two integers a and b(Where b != 0) there exists unique integers q and r -- Quotient and remainder respectively such that:
+    a = bq + r -- a divident, b is divisor, q is quotient, r is remainder.
+    where 0 <= r <|b|
+
+Given integers a and b the divison process results in a = br + q
+
+
+Applications of Euclidean division:
+    1. Greatest Common Divisor: The Euclidean algorithm, based on repeated Euclidean division is a method to compute the GCD of two numbers.
+    2. Modulo Operation: The remainder r in Euclidean division is ued in modular arithmetic
+     (a mod b = r).
+
+     a div b := m a mod b := r
+     We can say an integer a is divisible by another integer b if a mod b = 0 holds true.
+
+In a nutshell Euclidean division is the process of dividing one integer by another in a way that produces a quotient and a non-negative remainder,
+The latter of which is smaller than the absolute value of the divisor.
+
 
 
 
