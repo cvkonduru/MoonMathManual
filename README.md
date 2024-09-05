@@ -64,4 +64,17 @@ This uniqueness is a crucial feature of the fundamental theorem of arithmetic.
 
 Examples : n = 60 => Prime factorization of 60 is 2 * 2 * 3 * 5 = 2^2 * 3 * 5 - here p1 =2 p2 =3 p3 = 5, e1=2,e2=1, e3=1
 
+Computation of the factorization of an integer  is expensive, becasue we have to divide , repeat themselves. From this an imporant question arises, How fast can we compute factorization of a natural number.
+This question is the famous integer factorization problem and as far  as we know there is currently no known method that can factor integers much faster than the naive approach of just dividint he given number by all prime numbers in ascending order.
+
+but, computing the product of given set of prime number is fast: you just multiply factors
+This simple observation implies that the two processes,
+Prime number multiplication on the one side and its inverse procee, "Natural Number factorization" have very different computational costs.
+This factorization problem is therefore an example of a so-called one-way function:
+an invertible function that is easy to compute in one direction, but hard to compute in the other 
+direction.
+
+
+
+
 
